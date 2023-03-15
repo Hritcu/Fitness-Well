@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="global_confirm">Confirma</string>
+    <string name="global_confirm_question">Esti sigur?</string>
+    <string name="global_warning">Avertisment</string>
+    <string name="global_yes">Da</string>
+    <string name="global_no">Nu</string>
+
+    <string name="action_settings">Setari</string>
+    <string name="DateLabel">Date</string>
+
+    <string name="FunctionLabel">Afisaj</string>
+    <string name="HistoryLabel">History</string>
+    <string name="GraphLabel">Graphs</string>
+    <string name="AddLabel">Adauga</string>
+    <string name="DeleteLabel">Sterge</string>
+    <string name="ShareLabel">Share</string>
+    <string name="EditLabel">Editeaza</string>
+    <string name="DeleteRecordDialog">Eliminați această înregistrare?</string>
+
+    <!-- Fonte Fragment -->
+    <string name="FonteLabel">Bodybuilding</string>
+    <string name="SerieLabel">Seturi</string>
+    <string name="RepetitionLabel_short">Repetari</string>
+    <string name="MachineLabel">Exercitiu</string>
+    <string name="PoidsLabel">Greutate</string>
+    <string name="KgUnitLabel" translatable="false">kg</string>
+    <string name="LbsUnitLabel" translatable="false">lb</string>
+    <string name="StonesUnitLabel" translatable="false">st</string>
+    <string name="NotesLabel">Notes</string>
+    <string name="TopTenLabel">Ultimele înregistrări:</string>
+
+    <!-- Share text -->
+    <string name="ShareText">Share</string>
+    <string name="ShareTitle">Share your perf</string>
+    <string name="ShareInstruction">Edit your text before sending:</string>
+    <string name="ShareTextDefault">I have lifted __WEIGHT__ kg on __MACHINE__ !</string>
+    <string name="ShareParamWeight" translatable="false">__WEIGHT__</string>
+    <string name="ShareParamMachine" translatable="false">__MACHINE__</string>
+
+    <!-- Cardio Fragment -->
+    <string name="CardioLabel">Cardio</string>
+    <string name="DistanceLabel">Distanta</string>
+    <string name="DurationLabel">Durata</string>
+
+    <string name="KmUnitLabel" translatable="false">km</string>
+    <string name="MilesUnitLabel" translatable="false">mile</string>
+
+    <!-- Profile Fragment -->
+    <string name="weightMenuLabel">Evolutia greutatii</string>
+    <string name="weightLabel">Greutate</string>
+    <string name="fatLabel">Grasime</string>
+    <string name="bonesLabel">Oase</string>
+    <string name="waterLabel">Apa</string>
+    <string name="musclesLabel">Masa musculara</string>
+    <string name="measureLabel">Măsură</string>
+    <string name="sizeTableLabel">Istoricul măsurătorilor:</string>
+    <string name="createProfilTitle">Creare profil nou</string>
+    <string name="profileSelected">Profile selected</string>
+    <string name="createProfilQuestion">Care e numele de utilizator?</string>
+    <string name="userChanged">Utilizator schimbat</string>
+    <string name="renameProfilTitle">Redenumire profil</string>
+    <string name="renameProfilQuestion">Redenumiți acest profil?</string>
+
+    <!-- Pour le menu settings -->
+    <string name="SettingLabel">Setari</string>
+    <string name="Food">Food</string>
+    <string name="export_database">Export Records</string>
+    <string name="export_question">Export the database of </string>
+    <string name="export_success">Database exported</string>
+    <string name="export_failed">Could not export database</string>
+    <string name="import_database">Import Records</string>
+
+    <string name="removedid">ID removed</string>
+    <string name="failedtocreatefolder">Nu s-a putut crea folderul</string>
+
+    <string name="deleteDB_warning">Reset the entire app and exit?\n(All data will be lost.)</string>
+    <string name="ResetAppLabel">Reset app</string>
+
+    <!-- Machine Fragment -->
+    <string name="MachinesLabel">Exercitii</string>
+
+    <!-- Preferences -->
+    <string name="pref_ui_setting">Setari UI</string>
+    <string name="pref_show_mp3_player">Show Audio Player</string>
+    <string name="pref_show_mp3_player_summary">Afișați / ascundeți bara de instrumente a playerului audio</string>
+
+    <string name="pref_audio_setting">Setări ale cronometrului</string>
+    <string name="pref_play_sound_after_rest_timer">Beep</string>
+    <string name="pref_play_sound_after_rest_timer_summary">Bip la sfârșitul cronometrului </string>
+    <string name="pref_play_vibration_after_rest_timer">Vibrații</string>
+    <string name="pref_play_vibration_after_rest_timer_summary">Vibrează la sfârșitul cronometruluir</string>
+
+    <string name="pref_scheduled_backup_setting">Setări de backup automat</string>
+    <string-array name="backup_options">
+        <item>Manual</item>
+        <item>Zilnic</item>
+        <item>Saptamanal</item>
+        <item>Lunar</item>
+    </string-array>
+
+    <string-array name="backup_settings_Enum" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="pref_lastBackupSettingSummary">Ultimul Backup:</string>
+    <string name="pref_preferredBackupSettingTitle">Frecventa</string>
+    <string name="backup_notStarted">No backup started</string>
+    <string name="backup_warning_never">"Perform your first backup now. "</string>
+    <string name="backup_warning_day">"One day since your last backup. "</string>
+    <string name="backup_warning_week">"One week since your last backup. "</string>
+    <string name="backup_warning_month">"One month since your last backup. "</string>
+
+    <string name="pref_preferredUnitSummary">"Unitatea preferată: "</string>
+    <string name="pref_preferredUnitTitle">Greutate</string>
+    <string name="pref_preferredDistanceUnitTitle">Distanta</string>
+    <string name="pref_preferredSizeUnitTitle">Măsurători corporale</string>
+
+    <string name="profil_create_new">Creare profil nou</string>
+    <string name="profil_change">Schimba profil</string>
+    <string name="profil_select_profil">Selecteaza profil</string>
+    <string name="profil_delete">Ștergeți un profil</string>
+    <string name="profil_select_profil_to_delete">Selectați un profil pentru al șterge</string>
+
+    <!-- Navigation Drawer -->
+    <string name="drawer_open">Deschideți sertarul de navigare</string>
+    <string name="drawer_close">Închideți sertarul de navigare</string>
+
+    <string-array name="weight_units" translatable="false">
+        <item>@string/KgUnitLabel</item>
+        <item>@string/LbsUnitLabel</item>
+        <item>@string/StonesUnitLabel</item>
+    </string-array>
+
+    <string-array name="fonte_unitsEnum" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="distance_units" translatable="false">
+        <item>@string/KmUnitLabel</item>
+        <item>@string/MilesUnitLabel</item>
+    </string-array>
+
+    <string-array name="distance_unitsEnum" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="CmUnitLabel" translatable="false">cm</string>
+    <string name="InUnitLabel" translatable="false">in</string>
+
+    <string-array name="size_units" translatable="false">
+        <item>@string/CmUnitLabel</item>
+        <item>@string/InUnitLabel</item>
+    </string-array>
+
+    <string-array name="size_unitsEnum" translatable="false">
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="maxRep1">Greutate maximă (Repetari &gt;= 1)</string>
+    <string name="maxRep5d">Greutate maximă (Repetari &gt;= 5)</string>
+    <string name="sum">Suma greutăților</string>
+    <string name="sumReps">Suma repetari</string>
+    <string name="maxReps">Maxim repatari</string>
+    <string name="oneRepMax">Estimare 1 Rep Max  (Reps &lt;= 10)</string>
+
+    <string-array name="graph_functions" translatable="false">
+        <item>@string/maxRep1</item>
+        <item>@string/maxRep5d</item>
+        <item>@string/sum</item>
+        <item>@string/sumReps</item>
+        <item>@string/maxReps</item>
+        <item>@string/oneRepMax</item>
+    </string-array>
+
+    <string name="sumDistance">Distata</string>
+    <string name="sumDuration">Durata</string>
+    <string name="speed">Viteza</string>
+
+    <string-array name="graph_cardio_functions" translatable="false">
+        <item>@string/sumDistance</item>
+        <item>@string/sumDuration</item>
+        <item>@string/speed</item>
+    </string-array>
+
+    <string name="maxWeightPerDuration">Greutate maximă pe durată</string>
+    <string name="maxLengthPerDate">Max duration per Date</string>
+    <string name="nbSeriesPerDate">Nb Sets per Date</string>
+
+    <string-array name="graph_static_functions" translate="false">
+        <item>@string/maxWeightPerDuration</item>
+        <item>@string/maxLengthPerDate</item>
+        <item>@string/nbSeriesPerDate</item>
+    </string-array>
+
+    <string name="all">Tot</string>
+
+    <string name="bodytracking">Body Track</string>
+    <string name="selectMuscles">Selectați mușchii</string>
+
+    <!-- Muscles -->
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="pectoraux">Piep</string>
+    <string name="deltoids">Deltoizi</string>
+
+    <string name="dorseaux">Spate</string>
+    <string name="abdominaux">Abdomen</string>
+
+    <string name="quadriceps">Cuadriceps</string>
+    <string name="ischio_jambiers">Ischiogambieri</string>
+    <string name="adducteurs">Coapse</string>
+    <string name="mollets">Gambe</string>
+
+    <string name="trapezius">Trapez</string>
+    <string name="obliques">Oblici</string>
+
+    <!-- Body Parts -->
+    <string name="left_arm">Biceps stang</string>
+    <string name="right_arm">Biceps drept</string>
+    <string name="neck">Gat</string>
+    <string name="left_thigh">Coapsa stanga</string>
+    <string name="right_thigh">Coapsa dreapta</string>
+    <string name="left_calves">Gamba stanga</string>
+    <string name="right_calves">Gamba dreapta</string>
+    <string name="waist">Talie</string>
+    <string name="behind">Solduri</string>
+    <string name="shoulders">Umeri</string>
+    <string name="glutes">Fesieri</string>
+    <string name="size">Dimensiune</string>
+
+    <string name="backDialog_confirm_text">Salvați înainte de a ieși?</string>
+    <string name="deleteMachine_confirm_text">Ștergeți acest exercițiu și toate înregistrările asociate?</string>
+    <string name="renameMachine_warning_text">Acest nume de exercițiu există. Înregistrările vor fi comasate cu celălalt exercițiu.</string>
+
+
+    <!-- Photo -->
+    <string name="camera">Camera</string>
+    <string name="gallery">Galerie</string>
+
+    <!-- DateGraph -->
+    <string name="graph_all">Total</string>
+    <string name="graph_lastyear">Anul trecut</string>
+    <string name="graph_lastmonth">Luna trecuta</string>
+    <string name="graph_lastweek">Saptamana trecuta</string>
+
+    <string-array name="zoom_list">
+        <item>@string/graph_all</item>
+        <item>@string/graph_lastyear</item>
+        <item>@string/graph_lastmonth</item>
+        <item>@string/graph_lastweek</item>
+    </string-array>
+
+    <!-- Chronometer -->
+    <string name="ChronometerLabel">Cronometru</string>
+    <string name="CountdownLabel">Pauza</string>
+    <string name="activate_rest_time">Pauza activa cronometru</string>
+    <string name="rest_time">Pauza (sec.)</string>
+    <string name="lastRecordLabel">Ultima inregistrare</string>
+    <string name="FilterHint">Filtrați după numele exercițiului</string>
+    <string name="FilterTextViewType">Filtrați după tipul de exercițiu</string>
+    <string name="total_weight">Greutate totală</string>
+    <string name="total_session">Total în timpul sesiunii</string>
+    <string name="total_machine">Total la exercițiu</string>
+    <string name="nb_serie">Nr seturi</string>
+    <string name="exit">Exit</string>
+    <string name="selectMachineDialogLabel">Selectați un exercițiu existent</string>
+    <string name="filterExerciseTypeDialogLabel">Filtru pentru tipuri de exerciții</string>
+
+    <!-- Intro slides -->
+    <string name="fillNameField">Adaugati numele</string>
+    <string name="introSlide1Title">Salut!</string>
+    <string name="size_cm_optional">Height (cm) (optional)</string>
+    <string name="create">Creaza</string>
+    <string name="birthday_optional">Zi de nastere</string>
+    <string name="name_or_pseudo">Nume</string>
+    <string name="name_is_required">Numele este obligatoriu</string>
+    <string name="create_a_profile">Creare profil</string>
+    <string name="introSlide1Text">Bine ai venit. FitnessWell este o aplicatie care te ajuta sa iti urmaresti si sa iti creezi programul de antrenament, sa iti monotorizezi progresul si alimentele consumate. </string>
+    <string name="introSlide2Text">Scrieți numele exercițiului și caracteristicile acestuia, iar acesta va fi creat automat. Îl puteți regăsi cu ușurință în listă. </string>
+    <string name="introSlide2Title">Usor de folosit</string>
+    <string name="titleSlideEssential">Monotorizeaza alimentele</string>
+    <string name="textSlideEssential">Adaugati usor alimentele zilnic consumate si aflaflati caloriile si macronutrientii acestora.</string>
+    <string name="pressBackAgain">Click \"Back\" again to exit</string>
+    <string name="titleSlideOpenSource">It is libre software! Use, change, copy, and share at will.</string>
+    <string name="textSlideOpenSource">Join the community and let\'s build the best fitness app together! Visit us at https://github.com/brodeurlv/fastnfitness</string>
+    <string name="profileCreated">Profil creat</string>
+    <string name="missinginfo">Informatii lipsa</string>
+    <string name="createExerciseFirst">Creați mai întâi un exercițiu</string>
+    <string name="selectExerciseTypeFirst">Selectați cel puțin un tip de exercițiu</string>
+    <string name="add_new_exercise">Adăugați un nou exercițiu</string>
+    <string name="impossibleToDeleteProfile">Nu se poate șterge profilul curent</string>
+    <string name="profileDeleted">Profil sters</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="areyousure">Are you sure?</string>
+    <string name="edit_soon_available">Edit soon available</string>
+    <string name="name">Nume</string>
+    <string name="description">Descriere</string>
+    <string name="muscles">Muschi</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="profileEnterYourSize">Mărimea dvs</string>
+    <string name="profileEnterYourBirthday">Ziua de nastere</string>
+    <string name="profile_page">Profil pagina</string>
+    <string name="ProfileLabel">Profil</string>
+    <string name="edit_value">Editeaza valoare</string>
+    <string name="menu_Workout">Workout</string>
+    <string name="renameMachine_error_text2">ERROR: Acest nume de exercițiu există deja. Nu este posibilă fuzionarea a două exerciții cu același nume și tipuri diferite.</string>
+    <string name="recordcopied">Record copied</string>
+    <string name="weightRequiredForMultipleInputs">Trebuie să furnizați o pondere pentru a adăuga valori multiple</string>
+    <string name="imcLabel">BMI</string>
+    <string name="rfmLabel">RFM</string>
+    <string name="underweight">subponderală</string>
+    <string name="normal">normal</string>
+    <string name="overweight">supraponderal</string>
+    <string name="obese">obez</string>
+    <string name="maleGender">Barbat</string>
+    <string name="femaleGender">Femeie</string>
+    <string name="enter_gender_here">Enter gen</string>
+    <string name="gender">Gen</string>
+    <string name="no_size_available">nici o înălțime disponibilă</string>
+    <string name="no_weight_available">nicio greutate disponibilă</string>
+    <string name="BMI_dialog_title">Body Mass Index (BMI)</string>
+    <string name="BMI_formula">BMI = greutate(kg) / inaltime(m)²</string>
+    <string name="RFM_dialog_title">Relative Fat Mass Index (RFM)</string>
+    <string name="RFM_female_formula">Femei: RFM = 76 – (20 x (inaltime/circumferinta taliei))</string>
+    <string name="RFM_male_formula">Barbati: RFM = 64 – (20 x (inaltime/circumferinta taliei))</string>
+    <string name="access_granted">Access granted</string>
+    <string name="another_time_maybe">Poate altadata :)</string>
+    <string name="new_folder">Folder nou</string>
+    <string name="ffmiLabel">FFMI</string>
+    <string name="FFMI_dialog_title">Fat-free mass index (FFMI)</string>
+    <string name="FFMI_formula">FFMI [kg/m2] = greutate [kg] × (1 − (body fat [%] / 100)) / (inaltime [m])²</string>
+    <string name="bmrLabel">BMR</string>
+    <string name="bmr_dialog_title">Basal Metabolic Rate (BMR)</string>
+    <string name="bmr_formula">
+        Calculat cu ajutorul ecuației Mifflin-St Jeor.
+        Pentru persoanele cu 15% grăsime corporală și sub 15%, formula Katch-McArdle tinde să fie mai precisă pentru persoanele care sunt mai slabe și care își cunosc procentul de grăsime corporală.
+        Pentru o greutate mai mare pentru a avea acuratețe în calcularea BMR-ului, se recomandă să introduceți data nașterii, înălțimea, greutatea și procentul de grăsime corporală.
+        Acest lucru va ajuta aplicația să determine ce formulă să folosească atunci când efectuează acest calcul.
+    </string>
+    <string name="bmrCalories">calories/day</string>
+    <string name="daily_calorie_label">Daily Cals</string>
+    <string name="daily_calorie_alert">Daily Calorie Needs</string>
+    <string name="daily_calorie_alert_body">
+        O estimare a caloriilor necesare zilnic pentru a vă menține greutatea actuală.
+        Acest calcul utilizează BMR-ul dumneavoastră și nivelul de activitate pentru a produce o recomandare.
+        Rețineți că această valoare este o estimare și că nevoile individuale de calorii vor varia. #
+        Sedentar: exerciții fizice puține sau deloc.
+        Moderat: Exerciții fizice de 1-3 ori/săptămână. Activ: exerciții fizice de 4-5 ori/săptămână.
+        Zilnic: exerciții zilnice sau exerciții intense de 3-4 ori/săptămână.
+        Intens: exerciții fizice de 6-7 ori/săptămână.
+        Foarte intens: exerciții fizice zilnice sau muncă fizică.
+
+    </string>
+    <string name="sedentary">sedentary</string>
+    <string name="moderate">moderate</string>
+    <string name="active">active</string>
+    <string name="daily_exercise">daily</string>
+    <string name="intense">intense</string>
+    <string name="very_intense">very intense</string>
+    <string-array name="activity_level">
+        <item>@string/sedentary</item>
+        <item>@string/moderate</item>
+        <item>@string/active</item>
+        <item>@string/daily_exercise</item>
+        <item>@string/intense</item>
+        <item>@string/very_intense</item>
+    </string-array>
+    <string name="no_fat_available">no fat available</string>
+    <string name="no_gender_defined">fără sex definit</string>
+    <string name="insufficient_data">date insuficiente</string>
+    <string name="indexLabel">Index</string>
+    <string name="what_type_of_exercise">Tipul de exercițiu?</string>
+    <string name="exercise_type">Tip de exercițiu:</string>
+    <string name="staticExercise">Isometric</string>
+    <string name="SecondsLabel_short">Sec.</string>
+    <string name="imported_successfully"> importat</string>
+    <string name="import_failed">nu s-a putut importa fișiere</string>
+    <string name="import_new_exercise_first">(Asigurați-vă că toate exercițiile noi sunt importate mai întâi)</string>
+    <string name="MachineHint">Denumirea exercițiului dumneavoastră</string>
+    <string name="timeLabel">Timp</string>
+
+    <string-array name="daynightauto">
+        <item>@string/light_mode</item>
+        <item>@string/dark_mode</item>
+        <item>@string/autoui_mode</item>
+    </string-array>
+
+    <integer name="light_mode_value">0</integer>
+    <integer name="dark_mode_value">1</integer>
+    <integer name="autoui_mode_value">2</integer>
+
+    <string-array name="daynightauto_enum">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="light_mode">Luminos</string>
+    <string name="dark_mode">Intunecat</string>
+    <string name="autoui_mode">Auto</string>
+    <string name="daynightmode_settingtitle">Selectați tema (reporniți aplicația)</string>
+
+
+    <string name="delete_bodypart_confirm">Ștergeți această parte a corpului și toate măsurile asociate?</string>
+    <string name="new_measure">Măsură nouă</string>
+    <string name="enter_profile_name">Introduceți numele profilului</string>
+    <string name="enter_size_cm">Introduceți înălțimea (cm)</string>
+    <string name="enter_birthday">Introduceți ziua de naștere</string>
+    <string name="enter_bodypart_name">Introduceți numele părții corpului</string>
+
+    <string name="strength_category">Forta</string>
+
+    <string name="automatic_date_time">Data/ora automată</string>
+    <string name="enter_workout_name">Introduceți numele programului</string>
+    <string name="workout_list_menu_item">Program list</string>
+    <string name="finish_program">Finalizeaza program</string>
+    <string name="start_program">Start program</string>
+    <string name="new_program">Program nou</string>
+    <string name="filter_by_workout_name">Filtrați după numele programului</string>
+    <string name="programs">Programe</string>
+    <string name="program">Program</string>
+    <string name="newStr">Nou</string>
+    <string name="edit">Editare</string>
+    <string name="program_preview">Program preview:</string>
+    <string name="program_running">Program:</string>
+    <string name="add_to_template">Adăugați la program</string>
+    <string name="update">Actualizare</string>
+    <string name="record_editor">Editor de înregistrări</string>
+    <string name="please_start_program_first">Vă rugăm să începeți mai întâi un program</string>
+    <string name="program_ongoing">Program în curs de desfășurare:</string>
+    <string name="rest_time_row">Timp de odihnă:</string>
+    <string name="sec" translatable="false">sec.</string>
+    <string name="free_workout">Antrenament gratuit</string>
+    <string name="this_program_is_empty">Acest program este gol</string>
+    <string name="total_on">Total</string>
+    <string name="editor">Editor</string>
+    <string name="info">Date</string>
+    <string name="details">Detalii</string>
+    <string name="unit_settings_title">Setari</string>
+    <string name="no_chart_data_available">Nu există date</string>
+    <string name="remove_image">Eliminați imaginea</string>
+    <string name="program_completed">Close completed program?</string>
+    <string name="database_migration">Move database</string>
+    <string name="something_went_wrong">Arf, something went wrong!</string>
+    <string name="database_migration_success">App files migrated successfully</string>
+    <string name="disclaimer_scoped_storage">Due to changes from Google, application files needs to be migrated. This can take some time if you have a lot of pictures. Please be patient.</string>
+    <string name="success">Success</string>
+    <string name="fail">Esec</string>
+    <string name="also_update_program">De asemenea, programul de actualizare</string>
+    <string name="not_done">Nu s-a realizat</string>
+</resources>

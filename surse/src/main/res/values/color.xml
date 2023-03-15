@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar_background">#14e044</color>
+    <color name="record_background_odd">#9cf09f</color>
+    <color name="record_background_even">#CCEAF4</color>
+    <color name="background">#F7FFFF</color>
+    <color name="tableheader_background">@color/cardview_light_background</color>
+    <color name="launcher_background">#3ff40d</color>
+    <color name="enabled_color">@color/text_color</color>
+    <color name="disabled_color">#bababa</color>
+    <color name="cardview_title_color">#485460</color>
+    <color name="index_color">#40804f</color>
+    <color name="add_button_background">#FFFFFF</color>
+    <color name="dark_icon_background">#5E5E5E</color>
+    <color name="drawer_icon">#FFFFFF</color>
+    <color name="icon_enable">#0DD815</color>
+    <color name="icon_disable">#bababa</color>
+    <color name="dialog_title_color">#75d178</color>
+    <color name="daily_calorie_spinner_selected">#757575</color>
+    <color name="daily_calorie_spinner_dropdown">#000000</color>
+</resources>

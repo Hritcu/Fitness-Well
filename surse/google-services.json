@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261379741342",
+    "project_id": "fitnesswell-72486",
+    "storage_bucket": "fitnesswell-72486.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261379741342:android:853fc143b4a5ae89fb8d8f",
+        "android_client_info": {
+          "package_name": "com.fitnesswell.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261379741342-av0ijr12pmjbkh8nqju08qrl994irunm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANFXZgbcaICNOzMEE4cY5L7rXV5QKi-Ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261379741342-av0ijr12pmjbkh8nqju08qrl994irunm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
